@@ -32,4 +32,13 @@ void main() {
   for (String names in nameList) {
     print(names);
   }
+
+  print('CONTINUE statment');
+
+  for(int l =1;l<=10;l++){
+    if(l==5){
+     continue;
+    }
+    print(l);
+  }
 }
